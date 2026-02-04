@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-int result_likes(int n, int d);
+string result_likes(int n, int d);
