@@ -1,9 +1,8 @@
 #include "logic.h"
 
 string odd_numbers(int n, int m) {
-	if (n > m) {
-		return"m must be > then n";
-	}
+	n = n > m ? m : n;
+	m = m > n ? m : n;
 
 	string result = "";
 
